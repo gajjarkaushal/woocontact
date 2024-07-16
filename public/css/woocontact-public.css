@@ -1,0 +1,17 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+
+.post-type-archive-product a.button.product_type_simple.add_to_cart_button.ajax_add_to_cart,
+.post-type-archive-product a.button.get-quote,
+.product-type-simple  a.button.get-quote
+{width: 80%;}
+
+.post-type-archive-product li.product.type-product.post-493.status-publish.instock.product_cat-uncategorized.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple {align-items: center;}
+
+div#get-quote {padding: 20px 0px;}
+div#get-quote + .cart {
+    display: none;
+}
